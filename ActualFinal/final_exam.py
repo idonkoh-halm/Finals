@@ -70,22 +70,25 @@ myPi=3.14
 
 def isColorOrPattern (word):
     '''Return True if if word is a recognized color or pattern'''
+    word=str(word)
     known_colors = ['red','blue','green','yellow','purple']
     known_patterns = ['polkadot','striped','plaid']
-    if word in known_colors or known_patterns:
+    if word in known_colors:
+        return True
+    elif word in known_patterns:
         return True
     else:
+        print False
         return False
-
 def count_vowels (word):
     '''Count the vowels in word.
     '''
     word = word.lower() # lower or upper case
-    vowels = 'aeiou' # no sometimes y for us
+    vowels = ["a","e","i","o","u"] # no sometimes y for us
     for letter in word:
         vowel_count = 0
         if letter in vowels:
-            vowel_count =+ 1
+            vowel_count +=1
     return vowel_count
 
 ######################################################
@@ -100,14 +103,21 @@ def count_vowels (word):
 
 # Write a function titled startsWithVowel that returns True if the
 # argument starts with a vowel and returns False otherwise.
-
+#def startsWithVowell(word):
+    
 # Write a function called every_other that returns every other item from a sequence,
 # starting with the first item.
 # 
 # For example
 # every_other(['Tom','Mary','Bob','Basil'])
 #  --> ['Tom','Bob']
-
+def every_other(arguments):
+    arguments=[arguments]
+    print arguments[0]
+    print arguments[2]
+    print arguments[4]
+    print arguments[6]
+    
 
 ######################################################
 ######################################################
