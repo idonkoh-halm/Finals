@@ -103,7 +103,8 @@ def count_vowels (word):
 
 # Write a function titled startsWithVowel that returns True if the
 # argument starts with a vowel and returns False otherwise.
-#def startsWithVowell(word):
+def startsWithVowell(word):
+    
     
 # Write a function called every_other that returns every other item from a sequence,
 # starting with the first item.

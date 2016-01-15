@@ -24,3 +24,4 @@ def isColorOrPattern (word):
         return False
     
 isColorOrPattern('banana')
+

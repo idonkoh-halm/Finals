@@ -103,7 +103,8 @@ def count_vowels (word):
 
 # Write a function called every_other that returns every other item from a sequence,
 # starting with the first item.
-# 
+# I broke my ankle in multiple
+### places. I've already had o
 # For example
 # every_other(['Tom','Mary','Bob','Basil'])
 #  --> ['Tom','Bob']
